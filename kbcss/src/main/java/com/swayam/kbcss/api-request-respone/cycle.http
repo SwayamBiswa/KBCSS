@@ -1,0 +1,29 @@
+POST http://localhost:8080/cycle/calculatePrice
+Content-Type: application/json
+
+[
+ {"cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-01"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-05-01"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-05-01"}
+
+]
+
+
+
+###
+# Duration: 2092 ms
+# URL: http://localhost:8080/cycle/calculatePrice
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Thu, 09 Jul 2020 17:44:43 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+{
+  "[FRAME, SEAT, RIM]": 1330.0,
+  "[TUBE, SEAT, RIM]": 1390.0,
+  "[TYRE, SEAT, RIM]": 1330.0
+}

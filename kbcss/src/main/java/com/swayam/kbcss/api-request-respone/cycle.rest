@@ -1,0 +1,122 @@
+#http-method
+POST
+
+#url
+http://localhost:8080/cycle/calculatePrice
+
+#http-header
+@Content-Type: application/json
+
+#request body
+[
+ {"cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+ {"cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+  {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+  {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2012-05-15"},
+  {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+  {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"}
+
+]
+
+
+
+
+%%%
+
+# Duration: 184 ms
+# URL: http://localhost:8080/cycle/calculatePrice
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Thu, 09 Jul 2020 18:25:37 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+[
+  {
+    "cycleComponent": [
+      "FRAME",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1330.0
+  },
+  {
+    "cycleComponent": [
+      "TUBE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1390.0
+  },
+  {
+    "cycleComponent": [
+      "TYRE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1330.0
+  },
+  {
+    "cycleComponent": [
+      "TUBE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1390.0
+  },
+  {
+    "cycleComponent": [
+      "TYRE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1330.0
+  },
+  {
+    "cycleComponent": [
+      "FRAME",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1330.0
+  },
+  {
+    "cycleComponent": [
+      "TUBE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1390.0
+  },
+  {
+    "cycleComponent": [
+      "TYRE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1330.0
+  },
+  {
+    "cycleComponent": [
+      "TUBE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1390.0
+  },
+  {
+    "cycleComponent": [
+      "TYRE",
+      "SEAT",
+      "RIM"
+    ],
+    "priceOfCycle": 1390.0
+  }
+]

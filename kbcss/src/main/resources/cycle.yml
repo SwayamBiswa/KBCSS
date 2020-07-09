@@ -1,0 +1,11 @@
+cycle:
+  framePrice: 150
+  handleWithBarkesPrice: 80
+  seatPrice: 100
+  chainAssemblyPrice: 120
+  wheel:
+    spokePrice: 20
+    rimPrice: 150
+    tubePrice: 140
+    tyreBeforePrice: 200
+    tyreAfterPrice : 230
