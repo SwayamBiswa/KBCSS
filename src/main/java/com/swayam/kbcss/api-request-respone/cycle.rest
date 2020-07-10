@@ -27,14 +27,14 @@ http://localhost:8080/cycle/calculatePrice
 
 %%%
 
-# Duration: 184 ms
+# Duration: 1287 ms
 # URL: http://localhost:8080/cycle/calculatePrice
 
 # HTTP/1.1 200
 
 @Content-Type: application/json
 @Transfer-Encoding: chunked
-@Date: Thu, 09 Jul 2020 18:25:37 GMT
+@Date: Fri, 10 Jul 2020 08:35:16 GMT
 @Keep-Alive: timeout=60
 @Connection: keep-alive
 
@@ -45,7 +45,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1330.0
+    "priceOfCycle": 1340.0
   },
   {
     "cycleComponent": [
@@ -53,7 +53,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1390.0
+    "priceOfCycle": 1400.0
   },
   {
     "cycleComponent": [
@@ -61,7 +61,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1330.0
+    "priceOfCycle": 1340.0
   },
   {
     "cycleComponent": [
@@ -69,7 +69,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1390.0
+    "priceOfCycle": 1400.0
   },
   {
     "cycleComponent": [
@@ -77,7 +77,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1330.0
+    "priceOfCycle": 1340.0
   },
   {
     "cycleComponent": [
@@ -85,7 +85,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1330.0
+    "priceOfCycle": 1340.0
   },
   {
     "cycleComponent": [
@@ -93,7 +93,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1390.0
+    "priceOfCycle": 1400.0
   },
   {
     "cycleComponent": [
@@ -101,7 +101,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1330.0
+    "priceOfCycle": 1340.0
   },
   {
     "cycleComponent": [
@@ -109,7 +109,7 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1390.0
+    "priceOfCycle": 1400.0
   },
   {
     "cycleComponent": [
@@ -117,6 +117,6 @@ http://localhost:8080/cycle/calculatePrice
       "SEAT",
       "RIM"
     ],
-    "priceOfCycle": 1390.0
+    "priceOfCycle": 1400.0
   }
 ]

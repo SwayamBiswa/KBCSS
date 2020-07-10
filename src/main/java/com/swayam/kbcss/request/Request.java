@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.util.List;
 @Data
 public class Request {
-    public List<String> cycleComponents;
+    private List<String> cycleComponents;
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dateOfPricing;
 

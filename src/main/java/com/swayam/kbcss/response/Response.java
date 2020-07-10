@@ -6,6 +6,6 @@ import java.util.Set;
 
 @Data
 public class Response {
-    Set<String> cycleComponent ;
-    double priceOfCycle;
+   private Set<String> cycleComponent ;
+   private double priceOfCycle;
 }
