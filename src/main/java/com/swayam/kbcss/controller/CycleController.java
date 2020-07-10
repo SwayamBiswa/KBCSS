@@ -7,7 +7,9 @@ import com.swayam.kbcss.service.CycleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 @RestController
 @RequestMapping("cycle")
@@ -21,16 +23,14 @@ public class CycleController {
         this.cycleService = cycleService;
     }
 
-
     @GetMapping("/cycleProperties")
     public CycleProperties getCycleProperties() {
         return cycleProperties;
     }
 
     @PostMapping("/calculatePrice")
-    public List<Response> calculatePrice(@RequestBody List<Request> requestList) {
-        return cycleService.calculatePrice(requestList);
-
+    public CompletableFuture<List<Response>> calculatePrice(@RequestBody List<Request> requestList) {
+      return cycleService.calculatePrice(requestList);
     }
 
 }
