@@ -27,11 +27,11 @@ public class CycleUtil {
 
         cycleMap = new LinkedHashMap<>();
         cycleMap.put("FRAME", cycle.getFramePrice());
-        cycleMap.put("HANDLEBARWITHBRAKES", cycle.getHandleWithBarkesPrice());
+        cycleMap.put("HANDLEBARWITHBRAKE", cycle.getHandleWithBarkesPrice());
         cycleMap.put("SEAT", cycle.getSeatPrice());
         cycleMap.put("CHAIN", cycle.getChainAssemblyPrice());
 
-        cycleMap.put("SPOKES", cycle.getWheel().getSpokePrice());
+        cycleMap.put("SPOKE", cycle.getWheel().getSpokePrice());
         cycleMap.put("RIM", cycle.getWheel().getRimPrice());
         cycleMap.put("TUBE", cycle.getWheel().getTubePrice());
         if("TUBELESS".equalsIgnoreCase(type)){
@@ -43,11 +43,11 @@ public class CycleUtil {
         cycleMap.put("TYRE", priceOfTyre);
 
         //calculate price of wheel
-        double priceOfWheel = 4 * cycleMap.get("SPOKES") +
+        double priceOfWheel = 4 * cycleMap.get("SPOKE") +
                 cycleMap.get("RIM") +
                 cycleMap.get("TUBE") +
                 cycleMap.get("TYRE");
-        cycleMap.put("WHEELS", priceOfWheel);
+        cycleMap.put("WHEEL", priceOfWheel);
 
         return cycleMap;
     }//End of builder(Request request)

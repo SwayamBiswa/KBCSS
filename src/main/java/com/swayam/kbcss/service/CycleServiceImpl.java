@@ -52,10 +52,10 @@ public class CycleServiceImpl  implements CycleService{
 
    private double calculate(Map<String,Double> cycleMap){
        return (cycleMap.get("FRAME")+
-               cycleMap.get("HANDLEBARWITHBRAKES")+
+               cycleMap.get("HANDLEBARWITHBRAKE")+
                cycleMap.get("SEAT")+
                cycleMap.get("CHAIN")+
-               (2 * cycleMap.get("WHEELS")));
+               (2 * cycleMap.get("WHEEL")));
 }// End
 
 }//End of class

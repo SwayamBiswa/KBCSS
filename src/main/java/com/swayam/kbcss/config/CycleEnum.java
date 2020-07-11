@@ -3,11 +3,11 @@ package com.swayam.kbcss.config;
 public enum CycleEnum {
 
     FRAME ,
-    HANDLEBARWITHBRAKES,
+    HANDLEBARWITHBRAKE,
     SEAT,
     CHAIN,
-    WHEELS,
-    SPOKES,
+    WHEEL,
+    SPOKE,
     RIM,
     TUBE,
     TYRE;// semicolon needed when fields / methods follow
