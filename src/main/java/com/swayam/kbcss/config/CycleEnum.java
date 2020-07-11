@@ -2,7 +2,6 @@ package com.swayam.kbcss.config;
 
 public enum CycleEnum {
 
-
     FRAME ,
     HANDLEBARWITHBRAKES,
     SEAT,

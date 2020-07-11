@@ -1,7 +1,6 @@
 package com.swayam.kbcss.service;
 
 import com.swayam.kbcss.config.CycleEnum;
-import com.swayam.kbcss.config.CycleProperties;
 import com.swayam.kbcss.request.Request;
 import com.swayam.kbcss.response.Response;
 import com.swayam.kbcss.util.CycleUtil;
@@ -12,13 +11,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
 
 @Service
 public class CycleServiceImpl  implements CycleService{
-  private Logger logger = LoggerFactory.getLogger(CycleServiceImpl.class);
+  private final Logger logger = LoggerFactory.getLogger(CycleServiceImpl.class);
     @Autowired
     private CycleUtil cycleUtil;
 
@@ -26,9 +28,9 @@ public class CycleServiceImpl  implements CycleService{
     @Async
     @Override
     public CompletableFuture<List<Response>> calculatePrice(List<Request> requestList) {
-         List<Response> responseList=new ArrayList<>();
-        Map<String,Double> cycleComponentMap = null;
-        Response response=null;
+        List<Response> responseList=new ArrayList<>();
+        Map<String,Double> cycleComponentMap;
+        Response response;
         for( Request request:requestList) {
             Map<String, Double> cycleMap = cycleUtil.builder(request);
             cycleComponentMap = new LinkedHashMap<>();
@@ -40,7 +42,7 @@ public class CycleServiceImpl  implements CycleService{
             String type = request.getType();
             Future<Double> price = CompletableFuture.supplyAsync(() -> calculate(type, cycleMap));
 
-            // return priceofCycle;
+            // return price of Cycle;
             response = new Response();
             response.setCycleComponentMap(cycleComponentMap);
             response.setPriceOfCycle(price.get());
@@ -50,20 +52,12 @@ public class CycleServiceImpl  implements CycleService{
 
     }//End- calculatePrice(Request request)
 
-    /**
-     * calculate price of Cycle
-     * @param type
-     * @param cycleMap
-     * @return
-     */
    private double calculate(String type,Map<String,Double> cycleMap){
-    double priceofCycle =
-            cycleMap.get("FRAME")+
-                    cycleMap.get("HANDLEBARWITHBRAKES")+
-                    cycleMap.get("SEAT")+
-                    cycleMap.get("CHAIN")+
-                    (2 * cycleMap.get("WHEELS"));
-    return priceofCycle;
+       return (cycleMap.get("FRAME")+
+               cycleMap.get("HANDLEBARWITHBRAKES")+
+               cycleMap.get("SEAT")+
+               cycleMap.get("CHAIN")+
+               (2 * cycleMap.get("WHEELS")));
 }// End
 
 }//End of class

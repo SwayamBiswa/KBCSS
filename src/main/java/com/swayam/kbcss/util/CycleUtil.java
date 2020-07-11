@@ -1,6 +1,6 @@
 package com.swayam.kbcss.util;
 
-import com.swayam.kbcss.config.CycleProperties;
+import com.swayam.kbcss.config.Cycle;
 import com.swayam.kbcss.request.Request;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +15,7 @@ public class CycleUtil {
     Map<String, Double> cycleMap = null;
 
     @Autowired
-    private CycleProperties cycleProperties;
+    private Cycle cycle;
 
     public Map<String, Double> builder(Request request) {
         //  Map<String,Double> cycleMap=null;
@@ -23,18 +23,23 @@ public class CycleUtil {
         LocalDate dateForRef = LocalDate.of(2016, 11, 30);
         LocalDate dateOfPricing = request.getDateOfPricing();
 
+        String type= "TUBELESS".equalsIgnoreCase(request.getType()) ? "TUBELESS": "TUBE";
+
         cycleMap = new LinkedHashMap<>();
-        cycleMap.put("FRAME", cycleProperties.getFramePrice());
-        cycleMap.put("HANDLEBARWITHBRAKES", cycleProperties.getHandleWithBarkesPrice());
-        cycleMap.put("SEAT", cycleProperties.getSeatPrice());
-        cycleMap.put("CHAIN", cycleProperties.getChainAssemblyPrice());
+        cycleMap.put("FRAME", cycle.getFramePrice());
+        cycleMap.put("HANDLEBARWITHBRAKES", cycle.getHandleWithBarkesPrice());
+        cycleMap.put("SEAT", cycle.getSeatPrice());
+        cycleMap.put("CHAIN", cycle.getChainAssemblyPrice());
 
-        cycleMap.put("SPOKES", cycleProperties.getWheel().getSpokePrice());
-        cycleMap.put("RIM", cycleProperties.getWheel().getRimPrice());
-        cycleMap.put("TUBE", cycleProperties.getWheel().getTubePrice());
-
+        cycleMap.put("SPOKES", cycle.getWheel().getSpokePrice());
+        cycleMap.put("RIM", cycle.getWheel().getRimPrice());
+        cycleMap.put("TUBE", cycle.getWheel().getTubePrice());
+        if("TUBELESS".equalsIgnoreCase(type)){
+            cycleMap.put("TUBE",new Double("0"));
+        }
+        //calculate price of tyre
         double priceOfTyre = dateForRef.isBefore(dateOfPricing) ?
-                cycleProperties.getWheel().getTyreAfterPrice() : cycleProperties.getWheel().getTyreBeforePrice();
+                cycle.getWheel().getTyreAfterPrice() : cycle.getWheel().getTyreBeforePrice();
         cycleMap.put("TYRE", priceOfTyre);
 
         //calculate price of wheel
@@ -43,16 +48,6 @@ public class CycleUtil {
                 cycleMap.get("TUBE") +
                 cycleMap.get("TYRE");
         cycleMap.put("WHEELS", priceOfWheel);
-
-
-       /* //calculate price of Cycle
-        double priceofCycle =
-                cycleMap.get("FRAME")+
-                        cycleMap.get("HANDLEBARWITHBRAKES")+
-                        cycleMap.get("SEAT")+
-                        cycleMap.get("CHAIN")+
-                        (2 * cycleMap.get("WHEELS"));*/
-
 
         return cycleMap;
     }//End of builder(Request request)
