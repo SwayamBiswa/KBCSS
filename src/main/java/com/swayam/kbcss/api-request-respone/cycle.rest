@@ -27,14 +27,14 @@ http://localhost:8080/cycle/calculatePrice
 
 %%%
 
-# Duration: 31 ms
+# Duration: 22 ms
 # URL: http://localhost:8080/cycle/calculatePrice
 
 # HTTP/1.1 200
 
 @Content-Type: application/json
 @Transfer-Encoding: chunked
-@Date: Sat, 11 Jul 2020 08:49:09 GMT
+@Date: Sat, 11 Jul 2020 09:01:56 GMT
 @Keep-Alive: timeout=60
 @Connection: keep-alive
 
@@ -42,81 +42,81 @@ http://localhost:8080/cycle/calculatePrice
   {
     "cycleComponentMap": {
       "FRAME": 150.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1306.0
+    "priceOfCycle": 1310.0
   },
   {
     "cycleComponentMap": {
-      "TUBE": 145.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1656.0
-  },
-  {
-    "cycleComponentMap": {
-      "TYRE": 200.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
-    },
-    "priceOfCycle": 1596.0
-  },
-  {
-    "cycleComponentMap": {
-      "TUBE": 145.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
-    },
-    "priceOfCycle": 1656.0
+    "priceOfCycle": 1650.0
   },
   {
     "cycleComponentMap": {
       "TYRE": 200.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1596.0
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
   },
   {
     "cycleComponentMap": {
       "FRAME": 150.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1306.0
+    "priceOfCycle": 1310.0
   },
   {
     "cycleComponentMap": {
-      "TUBE": 145.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1656.0
+    "priceOfCycle": 1650.0
   },
   {
     "cycleComponentMap": {
       "TYRE": 200.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1596.0
+    "priceOfCycle": 1590.0
   },
   {
     "cycleComponentMap": {
-      "TUBE": 145.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1656.0
+    "priceOfCycle": 1650.0
   },
   {
     "cycleComponentMap": {
       "TYRE": 230.0,
-      "SEAT": 94.0,
-      "RIM": 151.0
+      "SEAT": 100.0,
+      "RIM": 150.0
     },
-    "priceOfCycle": 1656.0
+    "priceOfCycle": 1650.0
   }
 ]

@@ -1,7 +1,6 @@
 package com.swayam.kbcss.config;
 
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +11,7 @@ import java.time.LocalDate;
 @Data
 @Configuration
 @ConfigurationProperties("cycle")
-/*@PropertySource("classpath:/cycle.yml")*/
+/*@PropertySource("classpath:/cycle.properties")*/
 public class Cycle {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dateforReference;
