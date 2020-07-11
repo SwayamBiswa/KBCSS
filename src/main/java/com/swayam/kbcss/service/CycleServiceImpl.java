@@ -38,9 +38,7 @@ public class CycleServiceImpl  implements CycleService{
                 if (CycleEnum.contains(cycleComponent))
                     cycleComponentMap.put(cycleComponent, cycleMap.get(cycleComponent));
             }
-
-            String type = request.getType();
-            Future<Double> price = CompletableFuture.supplyAsync(() -> calculate(type, cycleMap));
+            Future<Double> price = CompletableFuture.supplyAsync(() -> calculate(cycleMap));
 
             // return price of Cycle;
             response = new Response();
@@ -52,7 +50,7 @@ public class CycleServiceImpl  implements CycleService{
 
     }//End- calculatePrice(Request request)
 
-   private double calculate(String type,Map<String,Double> cycleMap){
+   private double calculate(Map<String,Double> cycleMap){
        return (cycleMap.get("FRAME")+
                cycleMap.get("HANDLEBARWITHBRAKES")+
                cycleMap.get("SEAT")+

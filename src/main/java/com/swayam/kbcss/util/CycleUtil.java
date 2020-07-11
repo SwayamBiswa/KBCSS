@@ -2,6 +2,7 @@ package com.swayam.kbcss.util;
 
 import com.swayam.kbcss.config.Cycle;
 import com.swayam.kbcss.request.Request;
+import lombok.Value;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,6 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Configuration
+
 public class CycleUtil {
 
     Map<String, Double> cycleMap = null;
@@ -18,9 +20,8 @@ public class CycleUtil {
     private Cycle cycle;
 
     public Map<String, Double> builder(Request request) {
-        //  Map<String,Double> cycleMap=null;
 
-        LocalDate dateForRef = LocalDate.of(2016, 11, 30);
+        LocalDate dateForRef = cycle.getDateforReference();
         LocalDate dateOfPricing = request.getDateOfPricing();
 
         String type= "TUBELESS".equalsIgnoreCase(request.getType()) ? "TUBELESS": "TUBE";
