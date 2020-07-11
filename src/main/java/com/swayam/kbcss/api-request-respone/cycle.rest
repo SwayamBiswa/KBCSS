@@ -34,7 +34,7 @@ http://localhost:8080/cycle/calculatePrice
 
 @Content-Type: application/json
 @Transfer-Encoding: chunked
-@Date: Sat, 11 Jul 2020 08:01:39 GMT
+@Date: Sat, 11 Jul 2020 08:02:50 GMT
 @Keep-Alive: timeout=60
 @Connection: keep-alive
 
