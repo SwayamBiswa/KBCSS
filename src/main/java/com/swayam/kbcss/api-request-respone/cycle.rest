@@ -14,7 +14,7 @@ http://localhost:8080/cycle/calculatePrice
  {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
  {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
  {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
- {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+ {"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
   {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
   {"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
   {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
@@ -27,14 +27,14 @@ http://localhost:8080/cycle/calculatePrice
 
 %%%
 
-# Duration: 22 ms
+# Duration: 15 ms
 # URL: http://localhost:8080/cycle/calculatePrice
 
 # HTTP/1.1 200
 
 @Content-Type: application/json
 @Transfer-Encoding: chunked
-@Date: Sat, 11 Jul 2020 09:01:56 GMT
+@Date: Sat, 11 Jul 2020 16:25:03 GMT
 @Keep-Alive: timeout=60
 @Connection: keep-alive
 
@@ -81,6 +81,7 @@ http://localhost:8080/cycle/calculatePrice
   },
   {
     "cycleComponentMap": {
+      "TUBE": 0.0,
       "FRAME": 150.0,
       "SEAT": 100.0,
       "RIM": 150.0
