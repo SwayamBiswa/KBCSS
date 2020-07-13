@@ -1,0 +1,1306 @@
+#http-method
+POST
+
+#url
+http://localhost:8080/cycle/calculatePrice
+
+#http-header
+@Content-Type: application/json
+
+#request body
+[
+ {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+ {"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+ {"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+ {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+ {"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+ {"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+ {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+ {"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+ {"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+ {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+ {"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+ {"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+ {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+ {"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+ {"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+ {"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+ {"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+ {"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"},
+{"type":"TUBELESS","cycleComponents":["FRAME","SEAT","RIM"],"dateOfPricing": "2016-05-11"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2019-08-04"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-06-07"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2017-08-13"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2013-07-01"},
+{"type":"TUBELESS","cycleComponents":["TUBE","FRAME","SEAT","RIM"],"dateOfPricing": "2016-11-30"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2018-05-01"},
+{"cycleComponents":["TYRE","SEAT","RIM","TYRE"],"dateOfPricing": "2012-05-15"},
+{"cycleComponents":["TUBE","SEAT","RIM"],"dateOfPricing": "2020-04-21"},
+{"cycleComponents":["TYRE","SEAT","RIM"],"dateOfPricing": "2020-02-10"}
+
+]
+
+
+
+
+%%%
+
+# Duration: 140 ms
+# URL: http://localhost:8080/cycle/calculatePrice
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Mon, 13 Jul 2020 07:13:40 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+[
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 0.0,
+      "FRAME": 150.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1310.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 200.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1590.0
+  },
+  {
+    "cycleComponentMap": {
+      "TUBE": 140.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  },
+  {
+    "cycleComponentMap": {
+      "TYRE": 230.0,
+      "SEAT": 100.0,
+      "RIM": 150.0
+    },
+    "priceOfCycle": 1650.0
+  }
+]

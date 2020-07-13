@@ -2,7 +2,6 @@ package com.swayam.kbcss.util;
 
 import com.swayam.kbcss.config.Cycle;
 import com.swayam.kbcss.request.Request;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
 import java.time.LocalDate;
@@ -10,13 +9,15 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Configuration
-
 public class CycleUtil {
 
     Map<String, Double> cycleMap = null;
 
-    @Autowired
-    private Cycle cycle;
+    private final Cycle cycle;
+
+    public CycleUtil(Cycle cycle) {
+        this.cycle = cycle;
+    }
 
     public Map<String, Double> builder(Request request) {
 
